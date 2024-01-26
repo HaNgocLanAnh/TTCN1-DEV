@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in HTML5, colspan, rowspan</title>
+</head>
+<body>
+    <h1>Table in HTML5, colspan, rowspan</h1>
+    <hr>
+    <table border="1" width = "500px" align="center" cellspacing = "0" cellpadding="5">
+        <thead bgColor = "pink">
+            <tr>
+                <th rowspan="2">
+                    STT
+                </th>
+                <th rowspan="2">
+                    Họ và tên
+                </th>
+                <th colspan="3">
+                    Điểm thi
+                </th>
+            </tr>
+            <tr bgColor = "blue">
+                <th>
+                    Toán
+                </th>
+                <th>
+                    Văn
+                </th>
+                <th>
+                    Anh
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Lan Anh</td>
+                <td align="center">8</td>
+                <td align="center">8</td>
+                <td align="center">8</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hà Anh</td>
+                <td align="center">7</td>
+                <td align="center">8</td>
+                <td align="center">6</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>An</td>
+                <td align="center">3</td>
+                <td align="center">2</td>
+                <td align="center">8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Trung bình:</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

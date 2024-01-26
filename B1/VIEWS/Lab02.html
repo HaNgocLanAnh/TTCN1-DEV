@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab02</title>
+</head>
+<body>
+    <h1>Lab02</h1>
+    <hr>
+    <h2>Phần I: </h2>
+    <h3>Bài thực hành 1: </h3>
+    <table border="1" align="center" width="500px" cellpadding="5">
+        <thead>
+            <tr>
+                <th colspan="6">DANH SÁCH HỌC VIÊN</th>
+            </tr>
+            <tr>
+                <th rowspan="2">STT</th>
+                <th rowspan="2">Họ Tên</th>
+                <th rowspan="2">Ngày sinh</th>
+                <th colspan="3">Diểm</th>
+            </tr>
+            <tr>
+                <th>Toán</th>
+                <th>Văn</th>
+                <th>Anh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="#">Nguyễn Văn Lịch</a></td>
+                <td>01/05/1997</td>
+                <td>9</td>
+                <td>7</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#">Phạm Minh Tuấn</a></td>
+                <td>05/09/1997</td>
+                <td>6</td>
+                <td>9</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#">Đỗ Mai Trang</a></td>
+                <td>12/08/1997</td>
+                <td>8</td>
+                <td>8</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#">Lại Hồng Anh</a></td>
+                <td>28/02/1997</td>
+                <td>8</td>
+                <td>7</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="#">Phạm Minh Tiệp</a></td>
+                <td>07/05/1997</td>
+                <td>9</td>
+                <td>6</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h3>Bài thực hành 02: </h3>
+    <table border="1" align="center" cellpadding="5" width="500px">
+        <tbody  align="center">
+            <tr>
+                <td rowspan="4"><img src="/B1/IMG/docter.jpg" width="50%" alt=""></td>
+                <td colspan="4">Ngày sinh: 28/02/1997</td>
+            </tr>
+            <tr>
+                <td colspan="3">Điểm thi</td>
+                <td rowspan="2">Điểm TB</td>
+            </tr>
+            <tr>
+                <td>Toán</td>
+                <td>Văn</td>
+                <td>Anh</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h3>Bài thực hành 03: </h3>
+    <form action="" method="post">
+        <table width="500px">
+            <thead>
+                <tr>
+                    <th colspan="2">Đăng Ký Thành Viên</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="50%">Họ và Tên:</td>
+                    <td>
+                        <input type="text" name="fullName" id="fullName" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tên Đăng nhập:</td>
+                    <td>
+                        <input type="text" name="userName" id="userName" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu:</td>
+                    <td>
+                        <input type="password" name="pass" id="pass" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ảnh đại diện:</td>
+                    <td>
+                        <input type="file" name="avatar" id="avatar">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Thư điện tử:</td>
+                    <td>
+                        <input type="email" name="email" id="email" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        <input type="radio" name="rdGioiTinh" id="rdNam" checked>
+                            <label for="rdNam">Nam</label>
+                        <input type="radio" name="rdGioiTinh" id="rdNu">
+                            <label for="rdNu">Nữ</label>
+                        <input type="radio" name="rdGioiTinh" id="rdKhac">
+                            <label for="rdKhac">Khác</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sở thích:</td>
+                    <td>
+                        <input type="checkbox" name="chkBongDa" id="chkBongDa" checked>
+                            <label for="chkBongDa">Bóng đá</label>
+                        <input type="checkbox" name="chkXemPhim" id="chkXemPhim">
+                            <label for="chkXemPhim">Xem phim</label>
+                        <input type="checkbox" name="chkDuLich" id="chkDuLich" checked>
+                            <label for="chkDuLich">Du lịch</label>
+                        <input type="checkbox" name="chkBoi" id="chkBoi" checked>
+                            <label for="chkBoi">Bơi</label>
+                        <input type="checkbox" name="chkNgheNhac" id="chkNgheNhac" checked>
+                            <label for="chkNgheNhac">Nghe nhạc</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quê quán:</td>
+                    <td>
+                        <select name="chonTinh" id="chonTinh">
+                            <option value="">--Chọn tỉnh--</option>
+                            <option value="hn">Hà Nội</option>
+                            <option value="qn">Quảng Ninh</option>
+                            <option value="hcm">Hồ Chí Minh</option>
+                            <option value="hd">Hải Dương</option>
+                            <option value="hp">Hải Phòng</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ:</td>
+                    <td>
+                        <input type="text" name="diaChi" id="diaChi" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện thoại:</td>
+                    <td>
+                        <input type="tel" name="tel" id="tel" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mô tả ngắn:</td>
+                    <td>
+                        <textarea name="moTa" id="moTa" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot align="center">
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="sub" id="sub" value="Đăng ký">
+                        <input type="reset" name="reset" id="reset" value="Làm lại">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    <hr>
+    <h2>Phần II: </h2>
+    <h3>Bài tập 1: </h3>
+    <table border="1" width="500px" align="center" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2">STT</th>
+                <th rowspan="2">Mã nhân viên</th>
+                <th rowspan="2">Họ và tên</th>
+                <th colspan="2">Thông tin</th>
+            </tr>
+            <tr>
+                <th>Nơi sinh</th>
+                <th>Ngày sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>A001</td>
+                <td>Nguyễn Văn A</td>
+                <td>Đà Nẵng</td>
+                <td>19/03/1997</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>B002</td>
+                <td>Nguyễn Văn B</td>
+                <td>Cà Mau</td>
+                <td>25/12/1997</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>C003</td>
+                <td>Nguyễn Văn C</td>
+                <td>Mỹ Tho</td>
+                <td>16/11/1997</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h3>Bài tập 3: </h3>
+    <table border="1" align="center" width = "500px" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="3">Buổi</th>
+                <th colspan="3">Lịch học</th>
+            </tr>
+            <tr bgcolor="LightGray">
+                <th colspan="2" >Thời gian</th>
+                <th rowspan="2" >Môn học</th>
+            </tr>
+            <tr>
+                <th>Bắt đầu</th>
+                <th>Kết thúc</th>
+            </tr>
+            <tr bgcolor="LightGray">
+                <th rowspan="2">Thứ 2</th>
+                <th rowspan="2">8:00 AM</th>
+                <th rowspan="2">12:00 AM</th>
+                <th>Cơ sở dữ liệu</th>
+            </tr>
+            <tr>
+                <th>Nhập môn C</th>
+            </tr>
+            <tr bgcolor="LightGray">
+                <th rowspan="3">Thứ 3</th>
+                <th>8:00 AM</th>
+                <th>12:00 AM</th>
+                <th rowspan="2">Thiết kế wed</th>
+            </tr>
+            <tr>
+                <th>2:00 PM</th>
+                <th>5:00 PM</th>
+            </tr>
+            <tr bgcolor="LightGray">
+                <th>6:00 PM</th>
+                <th>8:00 PM</th>
+                <th>PHP</th>
+            </tr>
+            <tr>
+                <th>Thứ 4</th>
+                <th>2:00 PM</th>
+                <th>9:00 PM</th>
+                <th>JAVA CORE</th>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <h3>Bài tập 4: </h3>
+        <table border="1" cellpadding="5" cellspacing="0" width="500px" align="center" bgColor="violet">
+            <tbody>
+                <td>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#">Tin tức</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#">Sản phẩm</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#">Khoá học</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#">Đăng ký</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#">Đăng nhập</a></li>
+                    </ul>
+                </td>
+            </tbody>
+        </table>
+    <br>
+    <h3>Bài tập 5:</h3>
+    <table border="1" cellpadding="5" cellspacing="0" width="500px">
+        <thead align="center">
+            <tr>
+                <th><a href="#">Trang chủ</a></th>
+            </tr>
+            <tr>
+                <th><a href="#">Tin tức</a></th>
+            </tr>
+            <tr>
+                <th><a href="#">Sản phẩm</a></th>
+            </tr>
+            <tr>
+                <th><a href="#">Khoá học</a></th>
+            </tr>
+            <tr>
+                <th><a href="#">Liên hệ</a></th>
+            </tr>
+            <tr>
+                <th><a href="#">Đăng ký</a></th>
+            </tr>
+            <tr>
+                <th><a href="#">Dăng nhập</a></th>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <h3>Bài tập 6:</h3>
+    <br>
+    <h3>Bài tập 7:</h3>
+    <form action="frmXXX" name="frmXXX" action="" method="post" enctype="multipart/form-data" width="200px">
+        <a href="#"><img src="/B1/IMG/wufoo.png" alt="wufoo"></a>
+        <h4 align="center">To Do List</h4>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th align="left">Item</th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="text" name="item" id="item" size="100">
+                    </th>
+                </tr>
+                <tr>
+                    <th align="left">Description</th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <textarea name="des" id="des" cols="93" rows="5"></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Priority</th>
+                    <th>Cetegory</th>
+                </tr>
+                <tr>
+                    <th>
+                        <select name="priority" id="priority">
+                            <option value="1">Low</option>
+                        </select>
+                    </th>
+                    <th>
+                        <select name="cetegory" id="cetegory">
+                            <option value="1">Personal</option>
+                        </select>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+
+        
+    </form>
+</body>
+</html>

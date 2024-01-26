@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab03 Bài tập thực hành 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            display: none;
+        }
+        div{
+            margin: 1rem;
+            padding: 0.5rem;
+        }
+        fieldset{
+            margin: .5rem 1rem;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lab03 Bài tập thực hành 2</h1>
+    <form>
+        <div>
+            <fieldset>
+                <legend>Thông tin báo cáo</legend>
+                <label for="">Thiết kế giao diện wed</label>
+                <progress value="88" max="100"></progress><br/>
+                <label for="">Phân tích sơ đồ thực thể</label>
+                <progress value="50" max="100"></progress><br/>
+                <label for="">Viết tài liệu phân tích thiết kế</label>
+                <progress value="30" max="100"></progress>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Thông tin danh sách môn học</legend>
+                <select name="chon" id="chon">
+                    <option value=""></option>
+                    <option value="1">Làm việc với Javascript</option>
+                    <option value="2">Làm việc với Photoshop</option>
+                    <option value="3">Làm việc với Bootstrap</option>
+                    <option value="4">Làm việc với PHP</option>
+                    <option value="5">PHP Framework Yii2</option>
+                </select>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>

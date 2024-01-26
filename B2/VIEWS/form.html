@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các điều khiển trên form</title>
+</head>
+<body>
+    <h1>Các điều khiển trên form</h1>
+
+    <form action="frmXXX" name="frmXXX" action="" method="post" enctype="multipart/form-data">
+        <p>
+            <input type="text" name="txtXX" id="txtXX" placeholder="Nhập giá trị" required>
+        </p>
+        <p>
+            pass:
+            <input type="password" name="pass" id="pass" placeholder="Nhập mật khẩu" required>
+        </p>
+        <p>
+            email:
+            <input type="email" name="email" id="email" placeholder="Nhập email">
+        </p>
+        <p>
+            tel:
+            <input type="tel" name="dienThoai" id="dienThoai" pattern="" placeholder="Nhập số điện thoại">
+        </p>
+        <p>
+            CheckBox:
+            <input type="checkbox" name="chkBongDa" id="chkBongDa" checked>
+                <label for="chkBongDa">Bóng đá</label>
+            <input type="checkbox" name="chkBongChuyen" id="chkBongChuyen">
+                <label for="chkBongChuyen">Bóng Chuyền</label>
+            <input type="checkbox" name="chkBongBan" id="chkBongBan">
+                <label for="chkBongBan">Bóng Bàn</label>
+        </p>
+        <p>
+            Radio:
+            <input type="radio" name="rdGioiTinh" id="rdNam" checked>
+            <label for="rdNam">Nam</label>
+            <input type="radio" name="rdGioiTinh" id="rdNu">
+            <label for="rdNu">Nữ</label>
+            <input type="radio" name="rdGioiTinh" id="rdKhac">
+            <label for="rdKhac">Khác</label>
+        </p>
+        <p>
+            Number:
+            <input type="number" name="num" id="num" max="100" min="0" step="5" value="20">
+        </p>
+        <p>
+            Range:
+            <input type="range" name="ran" id="ran" max="100" min="0" step="5" value="20">
+        </p>
+        <p>
+            Date:
+            <input type="date" name="ngaySinh" id="ngaySinh" value="20/01/2003">
+        </p>
+        <p>
+            Color:
+            <input type="color" name="mau" id="mau" value="#ccc">
+        </p>
+        <p>
+            Select: 
+            <select name="chonTinh" id="chonTinh">
+                <option value="">Chọn tỉnh</option>
+                <option value="HN">Hà Nội</option>
+                <option value="HP">Hải Phòng</option>
+                <option value="HCM">Hồ Chí Minh</option>
+                <option value="ĐN">Đà Nẵng</option>
+            </select>
+        </p>
+        <p>
+            Địa chỉ:
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit" name="btnSubmit">
+        </p>
+    </form>
+</body>
+</html>
